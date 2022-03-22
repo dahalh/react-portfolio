@@ -22,6 +22,12 @@ export const Skills = () => {
               <span className="text-warning">
                 <i className="fab fa-js text-warning d-block"></i> JavaScript
               </span>
+              <span className="text-warning">
+                <i className="fab fa-js text-warning d-block"></i> JavaScript
+              </span>
+              <span className="text-warning">
+                <i className="fab fa-js text-warning d-block"></i> JavaScript
+              </span>
             </div>
           </Col>
         </Row>

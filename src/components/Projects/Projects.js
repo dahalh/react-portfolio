@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { SectionTitle } from "../Title/Title";
 import p1 from "../../assets/contact.png";
 import p2 from "../../assets/calculator.png";
+import p3 from "../../assets/not-to-do.png";
 
 export const Projects = () => {
   return (
@@ -25,23 +26,29 @@ export const Projects = () => {
             />
           </Col>
           <Col md="6">
-            <h2>Prank Calculator</h2>
+            <h1>Prank Calculator</h1>
             <div className="links">
-              <a href="https://github.com/dahalh/prank-calculator">
+              <a
+                href="https://github.com/dahalh/prank-calculator"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://dahalh.github.io/prank-calculator/">
+              <a
+                href="https://dahalh.github.io/prank-calculator/"
+                target="_blank"
+              >
                 <i class="fab fa-chrome"></i>
               </a>
             </div>
-            <p>Tech: HTML, CSS, JavaScript</p>
-            <p>
+            <p className="project-p"> Tech: HTML, CSS, JavaScript</p>
+            <p className="project-p">
               This project is a fun project, a prank calculator. The calculator
               works correctly 90% of the time, the other 10% the calculator
               gives incorrect answers, allowing you to make your friends look
               like fools!
             </p>
-            <p>Add how you did this</p>
+            {/* <p>Add how you did this</p> */}
           </Col>
         </Row>
         {/* project 2 */}
@@ -55,53 +62,59 @@ export const Projects = () => {
             />
           </Col>
           <Col md="6" classNmae="mt-2 mt-md-0">
-            <h2>Contact List App</h2>
+            <h1>Contact List App</h1>
             <div className="links">
-              <a href="https://github.com/dahalh/prank-calculator">
+              <a href="https://github.com/dahalh/contact-list" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://dahalh.github.io/prank-calculator/">
+              <a href="https://dahalh.github.io/contact-list/" target="_blank">
                 <i class="fab fa-chrome"></i>
               </a>
             </div>
-            <p>Tech: HTML, CSS, JavaScript</p>
-            <p>
+            <p className="project-p">Tech: HTML, CSS, JavaScript</p>
+            <p className="project-p">
               This project is a fun project, a prank calculator. The calculator
               works correctly 90% of the time, the other 10% the calculator
               gives incorrect answers, allowing you to make your friends look
               like fools!
             </p>
-            <p>Add how you did this</p>
+            {/* <p>Add how you did this</p> */}
           </Col>
         </Row>
         {/* Project 3 */}
         <Row className="mt-5 py-5">
           <Col md="6">
             <img
-              src={p2}
+              src={p3}
               alt="Project Name"
               className="img-thumbnail"
               width="100%"
             />
           </Col>
           <Col md="6">
-            <h2>Prank Calculator</h2>
+            <h1>Time Management</h1>
             <div className="links">
-              <a href="https://github.com/dahalh/prank-calculator">
+              <a
+                href="https://github.com/dahalh/time-management"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://dahalh.github.io/prank-calculator/">
+              <a
+                href="https://dahalh.github.io/time-management/"
+                target="_blank"
+              >
                 <i class="fab fa-chrome"></i>
               </a>
             </div>
-            <p>Tech: HTML, CSS, JavaScript</p>
-            <p>
+            <p className="project-p">Tech: HTML, CSS, JavaScript</p>
+            <p className="project-p">
               This project is a fun project, a prank calculator. The calculator
               works correctly 90% of the time, the other 10% the calculator
               gives incorrect answers, allowing you to make your friends look
               like fools!
             </p>
-            <p>Add how you did this</p>
+            {/* <p>Add how you did this</p> */}
           </Col>
         </Row>
       </Container>

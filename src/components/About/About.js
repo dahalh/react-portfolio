@@ -18,16 +18,16 @@ export const About = () => {
             />
           </Col>
           <Col>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Reprehenderit, laborum error! Sint vitae nemo, tempora corrupti
-              quae odit cupiditate praesentium voluptas repellat est cum
-              architecto laboriosam repellendus perspiciatis laborum harum?
+            <p className="about-p">
+              My Name is Himanshu Dahal. I am recent graduate, having graduated
+              from Western Sydney University in mid 2021. I am currently a React
+              | Node | MongoDB | Full Stack Developer with MERN in training at
+              Dented Code.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
-              laborum qui, nisi iure dolor inventore eos id doloribus deserunt
-              ea amet animi, aut esse molestias.
+            <p className="about-p">
+              You can see all the projects I have completed and their links in
+              this page. If you have any questions, please get in contact with
+              me. Looking forward to hearing from you!
             </p>
           </Col>
         </Row>

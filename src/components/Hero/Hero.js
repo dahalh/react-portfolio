@@ -14,15 +14,15 @@ export const Hero = () => {
             <img src={me} width="50%" alt="me" />
           </Col>
           <Col md="7" className="mt-1">
-            <div className="mb-2 pt-3">Hi I'm Himanshu Dahal</div>
+            <div className="mb-2 pt-3 fs-2">Hi I'm Himanshu Dahal</div>
             <h2>👨🏽‍💻Full-Stack MERN Developer</h2>
-            <p className="mt-5 mb-2">
+            <p className="mt-5 mb-2 fs-5">
               React | Node | MongoDB | Full Stack Developer with MERN, currently
               in training at Dented Code.
             </p>
-            <button className="btn btn-success">
+            {/* <button className="btn btn-success">
               Download Resume <i className="fas fa-cloud-download-alt"></i>
-            </button>
+            </button> */}
           </Col>
         </Row>
       </Container>

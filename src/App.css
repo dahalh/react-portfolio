@@ -30,6 +30,12 @@
   background: wheat;
 }
 
+.about-p,
+.project-p {
+  font-size: x-large;
+  font-weight: 400;
+}
+
 /* .about-me-img {
   background: green;
 } */

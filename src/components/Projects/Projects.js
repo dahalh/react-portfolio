@@ -61,7 +61,7 @@ export const Projects = () => {
               width="100%"
             />
           </Col>
-          <Col md="6" classNmae="mt-2 mt-md-0">
+          <Col md="6" className="mt-2 mt-md-0">
             <h1>Contact List App</h1>
             <div className="links">
               <a href="https://github.com/dahalh/contact-list" target="_blank">
@@ -73,10 +73,9 @@ export const Projects = () => {
             </div>
             <p className="project-p">Tech: HTML, CSS, JavaScript</p>
             <p className="project-p">
-              This project is a fun project, a prank calculator. The calculator
-              works correctly 90% of the time, the other 10% the calculator
-              gives incorrect answers, allowing you to make your friends look
-              like fools!
+              This project is a contact list website integrated using a random
+              API. The contacts can be filtered by specifying gender and using
+              the search bar.
             </p>
             {/* <p>Add how you did this</p> */}
           </Col>
@@ -109,10 +108,10 @@ export const Projects = () => {
             </div>
             <p className="project-p">Tech: HTML, CSS, JavaScript</p>
             <p className="project-p">
-              This project is a fun project, a prank calculator. The calculator
-              works correctly 90% of the time, the other 10% the calculator
-              gives incorrect answers, allowing you to make your friends look
-              like fools!
+              This project is a time management tracker. You can enter tasks and
+              move them between good tasks and bad tasks, allowing you to see
+              how much time you have saved and how much time you would have lost
+              if you hadn't used the tracker.
             </p>
             {/* <p>Add how you did this</p> */}
           </Col>

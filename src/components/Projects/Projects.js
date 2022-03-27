@@ -91,7 +91,7 @@ export const Projects = () => {
             />
           </Col>
           <Col md="6">
-            <h1>Time Management</h1>
+            <h1>Time Management Tracker</h1>
             <div className="links">
               <a
                 href="https://github.com/dahalh/time-management"

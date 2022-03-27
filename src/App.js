@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
@@ -9,16 +10,9 @@ function App() {
   return (
     <div className="wrapper">
       <DefaultLayout>
-        {/*skills section */}
         <Skills />
-
-        {/* project section */}
         <Projects />
-
-        {/* About Me Section */}
         <About />
-
-        {/* Contact Section */}
         <Contact />
       </DefaultLayout>
     </div>

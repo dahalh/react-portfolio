@@ -1,13 +1,11 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import { Header } from "../Layout/Header";
 import "./Hero.css";
 import me from "../../assets/me.jpg";
 
 export const Hero = () => {
   return (
     <div className="hero">
-      <Header />
       <Container>
         <Row className="mt-5 pb-3">
           <Col md="5" className="text-center order-md-2 mb-5 pt-3">

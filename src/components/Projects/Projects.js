@@ -4,6 +4,7 @@ import { SectionTitle } from "../Title/Title";
 import p1 from "../../assets/contact.png";
 import p2 from "../../assets/calculator.png";
 import p3 from "../../assets/not-to-do.png";
+import p4 from "../../assets/movie-search.jpg";
 
 export const Projects = () => {
   return (
@@ -64,14 +65,20 @@ export const Projects = () => {
           <Col md="6" className="mt-2 mt-md-0">
             <h1>Contact List App</h1>
             <div className="links">
-              <a href="https://github.com/dahalh/contact-list" target="_blank">
+              <a
+                href="https://github.com/dahalh/react-contact-list"
+                target="_blank"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://dahalh.github.io/contact-list/" target="_blank">
+              <a
+                href="https://react-contact-list-omega.vercel.app/"
+                target="_blank"
+              >
                 <i class="fab fa-chrome"></i>
               </a>
             </div>
-            <p className="project-p">Tech: HTML, CSS, JavaScript</p>
+            <p className="project-p">Tech: HTML, CSS, JavaScript, React</p>
             <p className="project-p">
               This project is a contact list website integrated using a random
               API. The contacts can be filtered by specifying gender and using
@@ -112,6 +119,39 @@ export const Projects = () => {
               move them between good tasks and bad tasks, allowing you to see
               how much time you have saved and how much time you would have lost
               if you hadn't used the tracker.
+            </p>
+            {/* <p>Add how you did this</p> */}
+          </Col>
+        </Row>
+        <Row className="py-5">
+          <Col md="6" className="order-md-2">
+            <img
+              src={p4}
+              alt="Project Name"
+              className="img-thumbnail"
+              width="100%"
+            />
+          </Col>
+          <Col md="6" className="mt-2 mt-md-0">
+            <h1>Movie Collection List</h1>
+            <div className="links">
+              <a href="https://github.com/dahalh/movie-list" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://movie-list-p1ijkvpvq-dahalh.vercel.app/"
+                target="_blank"
+              >
+                <i class="fab fa-chrome"></i>
+              </a>
+            </div>
+            <p className="project-p">Tech: HTML, CSS, JavaScript, React</p>
+            <p className="project-p">
+              This project is a movie search app created using the OMDB API. The
+              website allows the user to search a movie and add it to their list
+              as either their happy or lazy category. The user is able to filter
+              the list by the categories, as well as choose the view of the list
+              by grid or list.
             </p>
             {/* <p>Add how you did this</p> */}
           </Col>
